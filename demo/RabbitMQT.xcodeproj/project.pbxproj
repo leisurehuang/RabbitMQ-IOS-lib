@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C01A0E7715A1463A000DB6B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01A0E7615A1463A000DB6B5 /* UIKit.framework */; };
+		C01A0E7915A1463A000DB6B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01A0E7815A1463A000DB6B5 /* Foundation.framework */; };
+		C01A0E7B15A1463A000DB6B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01A0E7A15A1463A000DB6B5 /* CoreGraphics.framework */; };
+		C01A0E8115A1463A000DB6B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C01A0E7F15A1463A000DB6B5 /* InfoPlist.strings */; };
+		C01A0E8315A1463A000DB6B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C01A0E8215A1463A000DB6B5 /* main.m */; };
+		C01A0E8715A1463A000DB6B5 /* RabbitMQTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C01A0E8615A1463A000DB6B5 /* RabbitMQTAppDelegate.m */; };
+		C01A0E8A15A1463A000DB6B5 /* RabbitMQTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01A0E8915A1463A000DB6B5 /* RabbitMQTViewController.m */; };
+		C01A0E8D15A1463A000DB6B5 /* RabbitMQTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01A0E8B15A1463A000DB6B5 /* RabbitMQTViewController.xib */; };
+		C01A0E9915A146F7000DB6B5 /* librabbitmq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C01A0E9715A146F7000DB6B5 /* librabbitmq.a */; };
+		C030553D15A2B00200732B0D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C030553C15A2B00200732B0D /* icon.png */; };
+		C08F1B8015A5882100FE95F1 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C08F1B7F15A5882100FE95F1 /* icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C01A0E7215A1463A000DB6B5 /* RabbitMQT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbitMQT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01A0E7615A1463A000DB6B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C01A0E7815A1463A000DB6B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C01A0E7A15A1463A000DB6B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C01A0E7E15A1463A000DB6B5 /* RabbitMQT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RabbitMQT-Info.plist"; sourceTree = "<group>"; };
+		C01A0E8015A1463A000DB6B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C01A0E8215A1463A000DB6B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C01A0E8415A1463A000DB6B5 /* RabbitMQT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RabbitMQT-Prefix.pch"; sourceTree = "<group>"; };
+		C01A0E8515A1463A000DB6B5 /* RabbitMQTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RabbitMQTAppDelegate.h; sourceTree = "<group>"; };
+		C01A0E8615A1463A000DB6B5 /* RabbitMQTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RabbitMQTAppDelegate.m; sourceTree = "<group>"; };
+		C01A0E8815A1463A000DB6B5 /* RabbitMQTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RabbitMQTViewController.h; sourceTree = "<group>"; };
+		C01A0E8915A1463A000DB6B5 /* RabbitMQTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RabbitMQTViewController.m; sourceTree = "<group>"; };
+		C01A0E8C15A1463A000DB6B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RabbitMQTViewController.xib; sourceTree = "<group>"; };
+		C01A0E9415A146F7000DB6B5 /* amqp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amqp.h; sourceTree = "<group>"; };
+		C01A0E9515A146F7000DB6B5 /* amqp_framing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amqp_framing.h; sourceTree = "<group>"; };
+		C01A0E9615A146F7000DB6B5 /* amqp_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amqp_private.h; sourceTree = "<group>"; };
+		C01A0E9715A146F7000DB6B5 /* librabbitmq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librabbitmq.a; sourceTree = "<group>"; };
+		C01A0E9815A146F7000DB6B5 /* socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		C030553C15A2B00200732B0D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C08F1B7F15A5882100FE95F1 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C01A0E6F15A1463A000DB6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01A0E7715A1463A000DB6B5 /* UIKit.framework in Frameworks */,
+				C01A0E7915A1463A000DB6B5 /* Foundation.framework in Frameworks */,
+				C01A0E7B15A1463A000DB6B5 /* CoreGraphics.framework in Frameworks */,
+				C01A0E9915A146F7000DB6B5 /* librabbitmq.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C01A0E6715A1463A000DB6B5 = {
+			isa = PBXGroup;
+			children = (
+				C01A0E7C15A1463A000DB6B5 /* RabbitMQT */,
+				C01A0E7515A1463A000DB6B5 /* Frameworks */,
+				C01A0E7315A1463A000DB6B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C01A0E7315A1463A000DB6B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01A0E7215A1463A000DB6B5 /* RabbitMQT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C01A0E7515A1463A000DB6B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C01A0E7615A1463A000DB6B5 /* UIKit.framework */,
+				C01A0E7815A1463A000DB6B5 /* Foundation.framework */,
+				C01A0E7A15A1463A000DB6B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C01A0E7C15A1463A000DB6B5 /* RabbitMQT */ = {
+			isa = PBXGroup;
+			children = (
+				C01A0E9315A146F7000DB6B5 /* lib */,
+				C01A0E8515A1463A000DB6B5 /* RabbitMQTAppDelegate.h */,
+				C01A0E8615A1463A000DB6B5 /* RabbitMQTAppDelegate.m */,
+				C01A0E8815A1463A000DB6B5 /* RabbitMQTViewController.h */,
+				C01A0E8915A1463A000DB6B5 /* RabbitMQTViewController.m */,
+				C01A0E8B15A1463A000DB6B5 /* RabbitMQTViewController.xib */,
+				C01A0E7D15A1463A000DB6B5 /* Supporting Files */,
+			);
+			path = RabbitMQT;
+			sourceTree = "<group>";
+		};
+		C01A0E7D15A1463A000DB6B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C08F1B7F15A5882100FE95F1 /* icon@2x.png */,
+				C030553C15A2B00200732B0D /* icon.png */,
+				C01A0E7E15A1463A000DB6B5 /* RabbitMQT-Info.plist */,
+				C01A0E7F15A1463A000DB6B5 /* InfoPlist.strings */,
+				C01A0E8215A1463A000DB6B5 /* main.m */,
+				C01A0E8415A1463A000DB6B5 /* RabbitMQT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C01A0E9315A146F7000DB6B5 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C01A0E9415A146F7000DB6B5 /* amqp.h */,
+				C01A0E9815A146F7000DB6B5 /* socket.h */,
+				C01A0E9515A146F7000DB6B5 /* amqp_framing.h */,
+				C01A0E9615A146F7000DB6B5 /* amqp_private.h */,
+				C01A0E9715A146F7000DB6B5 /* librabbitmq.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C01A0E7115A1463A000DB6B5 /* RabbitMQT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01A0E9015A1463A000DB6B5 /* Build configuration list for PBXNativeTarget "RabbitMQT" */;
+			buildPhases = (
+				C01A0E6E15A1463A000DB6B5 /* Sources */,
+				C01A0E6F15A1463A000DB6B5 /* Frameworks */,
+				C01A0E7015A1463A000DB6B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RabbitMQT;
+			productName = RabbitMQT;
+			productReference = C01A0E7215A1463A000DB6B5 /* RabbitMQT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01A0E6915A1463A000DB6B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RabbitMQT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01A0E6C15A1463A000DB6B5 /* Build configuration list for PBXProject "RabbitMQT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C01A0E6715A1463A000DB6B5;
+			productRefGroup = C01A0E7315A1463A000DB6B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01A0E7115A1463A000DB6B5 /* RabbitMQT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01A0E7015A1463A000DB6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01A0E8115A1463A000DB6B5 /* InfoPlist.strings in Resources */,
+				C01A0E8D15A1463A000DB6B5 /* RabbitMQTViewController.xib in Resources */,
+				C030553D15A2B00200732B0D /* icon.png in Resources */,
+				C08F1B8015A5882100FE95F1 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01A0E6E15A1463A000DB6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01A0E8315A1463A000DB6B5 /* main.m in Sources */,
+				C01A0E8715A1463A000DB6B5 /* RabbitMQTAppDelegate.m in Sources */,
+				C01A0E8A15A1463A000DB6B5 /* RabbitMQTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C01A0E7F15A1463A000DB6B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01A0E8015A1463A000DB6B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C01A0E8B15A1463A000DB6B5 /* RabbitMQTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01A0E8C15A1463A000DB6B5 /* en */,
+			);
+			name = RabbitMQTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01A0E8E15A1463A000DB6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01A0E8F15A1463A000DB6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01A0E9115A1463A000DB6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RabbitMQT/RabbitMQT-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/RabbitMQT/lib\"",
+					"$(inherited)",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				INFOPLIST_FILE = "RabbitMQT/RabbitMQT-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/RabbitMQT/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01A0E9215A1463A000DB6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RabbitMQT/RabbitMQT-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/RabbitMQT/lib\"",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/RabbitMQT/lib\"";
+				INFOPLIST_FILE = "RabbitMQT/RabbitMQT-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/RabbitMQT/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01A0E6C15A1463A000DB6B5 /* Build configuration list for PBXProject "RabbitMQT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01A0E8E15A1463A000DB6B5 /* Debug */,
+				C01A0E8F15A1463A000DB6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01A0E9015A1463A000DB6B5 /* Build configuration list for PBXNativeTarget "RabbitMQT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01A0E9115A1463A000DB6B5 /* Debug */,
+				C01A0E9215A1463A000DB6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C01A0E6915A1463A000DB6B5 /* Project object */;
+}
